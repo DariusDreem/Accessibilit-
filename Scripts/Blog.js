@@ -21,8 +21,17 @@ for (var i = 0; i < 5; i++) {
     postTitle.className = "PostTitle";
     postTitle.textContent = "Post " + (i + 1);
 
+    var authorLink = document.createElement("a");
+    authorLink.href = "../Pages/Blog.html";
+
+    var author = document.createElement("h3");
+    author.textContent = "Black_Fox"; // Remplacez "Auteur" par le nom réel de l'auteur
+
+    authorLink.appendChild(author);
+
     postLink.appendChild(postTitle);
     postDiv.appendChild(postLink);
+    postDiv.appendChild(authorLink);
 
     var postText = document.createElement("p");
     postText.textContent = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.";
@@ -41,7 +50,7 @@ for (var i = 0; i < 5; i++) {
     var comments = document.createElement("section");
     comments.className = "Comments";
 
-    var commentsTitle = document.createElement("h3");
+    var commentsTitle = document.createElement("h4");
     commentsTitle.textContent = "Comments (3)";
     comments.appendChild(commentsTitle);
 
