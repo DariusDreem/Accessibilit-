@@ -8,30 +8,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connexion - Black Fox</title>
     <link rel="stylesheet" href="../Css/Global.css">
+    <style>
+        .login-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: calc(100vh - 200px); /* Adjust based on header and footer height */
+        }
+
+        .login-form {
+            background-color: #ffffff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 0.75rem;
+            background-color: #000000;
+            color: #ffffff;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .submit-btn:hover {
+            background-color: #333333;
+        }
+    </style>
 </head>
 
 <body>
-    <header >
+    <header>
         <a href="/Pages/Blog.html" aria-label="Retour à la page d'accueil">
             <img src="../Assets/img/Logo.webp" alt="Logo De Black-Fox">
         </a>
     </header>
-    <main class="Login">
+    <main class="login-container">
         <h1>Connexion</h1>
-        <form action="Blog.html" class="FormLogin" aria-labelledby="login-heading">
+        <form action="Blog.html" class="login-form" aria-labelledby="login-heading">
             <h2 id="login-heading" class="visually-hidden">Formulaire de connexion</h2>
 
-            <div>
+            <div class="form-group">
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" required autofocus autocomplete="email" aria-required="true">
             </div>
 
-            <div>
+            <div class="form-group">
                 <label for="password">Mot de passe</label>
                 <input type="password" id="password" name="password" required autocomplete="current-password" aria-required="true">
             </div>
 
-            <button type="submit" aria-label="Se connecter">Connexion</button>
+            <button type="submit" class="submit-btn" aria-label="Se connecter">Connexion</button>
         </form>
     </main>
 
