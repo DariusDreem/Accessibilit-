@@ -18,14 +18,23 @@ for (var i = 0; i < 5; i++) {
     var postDiv = document.createElement("div");
 
     var postLink = document.createElement("a");
-    postLink.href = "Table.html";
+    postLink.href = "../Pages/Table.html";
 
     var postTitle = document.createElement("h2");
     postTitle.className = "PostTitle";
     postTitle.textContent = "Post " + (i + 1);
 
+    var authorLink = document.createElement("a");
+    authorLink.href = "../Pages/Blog.html";
+
+    var author = document.createElement("h3");
+    author.textContent = "Black_Fox"; // Remplacez "Auteur" par le nom réel de l'auteur
+
+    authorLink.appendChild(author);
+
     postLink.appendChild(postTitle);
     postDiv.appendChild(postLink);
+    postDiv.appendChild(authorLink);
 
     var postText = document.createElement("p");
     postText.textContent = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.";
@@ -44,8 +53,8 @@ for (var i = 0; i < 5; i++) {
     var comments = document.createElement("section");
     comments.className = "Comments";
 
-    var commentsTitle = document.createElement("h3");
-    commentsTitle.textContent = "Comments";
+    var commentsTitle = document.createElement("h4");
+    commentsTitle.textContent = "Comments (3)";
     comments.appendChild(commentsTitle);
 
     for (var j = 0; j < 3; j++) {
@@ -53,7 +62,7 @@ for (var i = 0; i < 5; i++) {
         comment.className = "Comment";
 
         var author = document.createElement("p");
-        author.innerHTML = 'Author: <a href="Blog.html">Black-Fox</a>';
+        author.innerHTML = 'Author: <a href="Blog.html" tabindex="-1">Black-Fox</a>';
         comment.appendChild(author);
 
         var published = document.createElement("p");

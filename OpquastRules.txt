@@ -1,0 +1,120 @@
+1- Règle n°3 : 
+Le code source de chaque page contient une métadonnée qui en décrit le contenu.
+
+2- Règle n°4 : 
+Les dates sont présentées dans des formats explicites.
+
+3- Règle n°6 : 
+La date de publication des contenus qui le nécessitent est indiquée.
+
+4- Règle n°96 : 
+L'identité de l'auteur, de la société ou de l'organisation est indiquée.
+
+5- Règle n°97 : 
+Le titre de chaque page permet d'identifier le site.
+
+6- Règle n°98 : 
+Le titre de chaque page permet d'identifier son contenu.
+
+7- Règle n°108 : 
+Le site propose au moins un moyen de contacter le modérateur des espaces publics.
+
+8- Règle n°109 : 
+L'identité de la personne ou du service responsable des contenus est indiquée.
+
+9- Règle n°111 : 
+Chaque image décorative est dotée d'une alternative textuelle appropriée.
+
+10- Règle n°112 : 
+Chaque image-lien est dotée d'une alternative textuelle appropriée.
+
+11- Règle n°113 : 
+Chaque image porteuse d'information est dotée d'une alternative textuelle appropriée.
+
+12- Règle n°114 : 
+Les vignettes et aperçus ne sont pas des images de taille supérieure redimensionnées côté client.
+
+13- Règle n°115 : 
+Les objets inclus sont dotés d'une alternative textuelle appropriée.
+
+14- Règle n°122 : 
+Le déroulement des animations ne bloque pas la navigation ou l'accès aux contenus.
+
+15- Règle n°148 : 
+Si le site n'est pas réservé à un public spécifique, l'accès aux contenus est immédiat.
+
+16- Règle n°149 : 
+La navigation sur le site ne provoque pas l'ouverture de popups.
+
+17- Règle n°150 : 
+Il est possible de revenir à la page d'accueil depuis toutes les pages.
+
+18- Règle n°151 : 
+Chaque page affiche une information permettant de connaître son emplacement dans l'arborescence du site.
+
+19- Règle n°153 : 
+Les blocs de navigation de même nature sont affichés aux mêmes emplacements sur toutes les pages.
+
+20- Règle n°154 : 
+Les icônes de navigation sont accompagnées d'une légende explicite.
+
+21- Règle n°159 : 
+Chaque page contient des liens d'accès rapide placés au début du code source.
+
+22- Règle n°161 : 
+Le site est intégralement utilisable au clavier.
+
+23- Règle n°162 : 
+La navigation au clavier s'effectue dans un ordre prévisible.
+
+24- Règle n°166 : 
+Un plan du site est disponible depuis chaque page.
+
+25- Règle n°191 : 
+Le contenu de chaque page est disponible à l'impression sans blocs de navigation.
+
+26- Règle n°224 : 
+La date de publication ou de mise à jour des contenus est mise à disposition sous forme 
+programmatique.
+
+27- Règle n°225 : 
+Le code source de chaque page contient une métadonnée qui définit le jeu de caractères.
+
+28- Règle n°226 : 
+Le codage de caractères utilisé est UTF-8.
+
+29- Règle n°227 : 
+Le contenu de chaque page est organisé selon une structure de titres et sous-titres hiérarchisée.
+
+30- Règle n°228 : 
+Les éléments visuellement présentés sous forme de liste sont balisés de façon appropriée dans le code source.
+
+31- Règle n°229 : 
+Chaque identifiant HTML n'est utilisé qu'une seule fois par page.
+
+32- Règle n°230 : 
+Le site ne bloque pas la copie de contenu
+
+33- Règle n°231 : 
+Le site ne bloque pas l'accès au menu contextuel
+
+34- Règle n°232 : 
+Le site n'impose pas de redirection ou de rafraîchissement automatique côté client.
+
+35- Règle n°236 : 
+Les cellules des tableaux de données sont reliées à leurs en-têtes.
+
+36- Règle n°237 : 
+Les titres des tableaux de données sont renseignés.
+
+37- Règle n°238 : 
+La linéarisation des tableaux utilisés pour la mise en page ne nuit pas à la compréhension des contenus.
+
+38- Règle n°239 : 
+Les tableaux de données ne sont pas remplacés par des images.
+
+39- Règle n°240 : 
+Les tableaux de données ne sont pas simulés à l'aide de texte mis en forme.
+
+40- Règle n° 116 : 
+Chaque contenu audio et vidéo est accompagné de sa transcription textuelle.
