@@ -1,28 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Css/Global.css">
-    <title> Site plan - Black Fox</title>
+    <title>Plan du site - Black Fox</title>
 </head>
 
 <body>
     <header>
-        <a href="Blog.html" title="Home page">
+        <a href="Blog.html" aria-label="Retour à la page d'accueil">
             <img src="../Assets/img/Logo.webp" alt="Logo De Black-Fox">
         </a>
     </header>
+
     <main>
         <h1>Plan du site</h1>
-        <ul class="SitePlanList">
-            <li><a href="Login.html">Login</a></li>
-            <li><a href="Blog.html">Blog</a></li>
-            <li><a href="Table.html">Table</a></li>
-            <li><a href="SitePlan.html">Plan du site</a></li>
-        </ul>
+        <nav aria-labelledby="site-map-heading">
+            <h2 id="site-map-heading" class="visually-hidden">Navigation du site</h2>
+            <ul class="SitePlanList">
+                <li><a href="Login.html" aria-label="Page de connexion">Connexion</a></li>
+                <li><a href="Blog.html" aria-label="Page du blog">Blog</a></li>
+                <li><a href="Table.html" aria-label="Page des tableaux">Tableaux</a></li>
+                <li><a href="SitePlan.html" aria-label="Vous êtes actuellement sur la page du plan du site">Plan du site</a></li>
+            </ul>
+        </nav>
     </main>
+
     <footer>
-        <a href="SitePlan.html">Plan du site</a>
+        <nav aria-label="Navigation du pied de page">
+            <a href="SitePlan.html" aria-label="Vous êtes actuellement sur la page du plan du site">Plan du site</a>
+        </nav>
     </footer>
 </body>
 

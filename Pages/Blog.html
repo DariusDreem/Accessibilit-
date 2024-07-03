@@ -1,36 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feed - Black Fox</title>
-    <link rel="preload" as="img" href="../Assets/ad22ad972ebcfe9fb8c87a1952418ad1.webp">
-    <link rel="preload" as="img" href="../Assets/Logo.webp">
+    <link rel="preload" as="image" href="../Assets/ad22ad972ebcfe9fb8c87a1952418ad1.webp">
+    <link rel="preload" as="image" href="../Assets/Logo.webp">
     <link rel="stylesheet" href="../Css/Global.css">
-
+    <script src="../Scripts/Blog.js" defer></script>
 </head>
 
 <body>
     <header>
-        <a href="Blog.html" title="Home page">
+        <a href="Blog.html" aria-label="Retour à la page d'accueil">
             <img src="../Assets/img/Logo.webp" alt="Logo De Black-Fox">
         </a>
         <h1>Mon Blog</h1>
     </header>
 
+    <nav aria-label="Navigation principale">
+        <!-- Ajoutez ici vos liens de navigation si nécessaire -->
+    </nav>
 
     <main class="Feed">
         <div class="PostsList">
-            <h1>Feed</h1>
+            <h2>Feed</h2>
         </div>
     </main>
 
     <footer>
-        <a href="SitePlan.html">Plan du site</a>
+        <nav aria-label="Navigation du pied de page">
+            <a href="SitePlan.html" aria-label="Accéder au plan du site">Plan du site</a>
+        </nav>
     </footer>
 </body>
-
-<script src="../Scripts/Blog.js"></script>
 
 </html>

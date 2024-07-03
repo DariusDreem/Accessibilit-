@@ -1,6 +1,9 @@
-
 // Sélectionner l'élément où les articles seront ajoutés
 var postsList = document.querySelector(".PostsList");
+
+// Créer une section pour contenir tous les articles
+var postsSection = document.createElement("section");
+postsSection.className = "PostsSection";
 
 // Générer cinq articles
 for (var i = 0; i < 5; i++) {
@@ -70,6 +73,9 @@ for (var i = 0; i < 5; i++) {
 
     post.appendChild(comments);
 
-    // Ajouter l'article à la liste des articles
-    postsList.appendChild(post);
+    // Ajouter l'article à la section des articles
+    postsSection.appendChild(post);
 }
+
+// Ajouter la section des articles à la liste des articles
+postsList.appendChild(postsSection);
